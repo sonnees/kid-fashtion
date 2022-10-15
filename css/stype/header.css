@@ -1,0 +1,94 @@
+body{
+    z-index: 1;
+}
+.row{
+    background-color: rgb(26, 148, 255);
+    height: 100px;
+}
+
+.SQ{
+    margin-top: 20px;
+    height: 65px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+.col-7 form{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.col-7 form input{
+    padding-left: 20px;
+    height: 50px;
+    border-radius: 30px 0px 0px 30px;
+    width: 600px;
+    border: none !important;
+    background-color: rgb(255, 255, 255);
+}
+.col-7 form input:focus{
+    outline: none;
+}
+
+.col-7 form button{
+    background-color: rgb(253, 216, 53);
+    height: 50px;
+    width: 130px;
+    border-radius: 0px 30px 30px 0px;
+    border: none !important;
+    cursor: pointer;
+}
+.col-7 form .a{
+    font-size: 13px;
+    margin-left: 20px;
+    margin-top: 50px;
+    position: absolute;
+}
+
+.col-7 form .a a{
+    color: rgb(255, 255, 255);
+}
+.navbar-collapse a{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    list-style-type: none;
+}
+.account-icon{
+    height: 40px;
+}
+
+.cart{
+    margin-top: 30px;
+    margin-right: 100px;
+    color: white;
+}
+.cart a{
+    color: white;
+    margin-top: 18px;
+    font-size: 15px;
+    
+}
+.cart-icon{
+   
+    height: 40px;
+}
+.cart span{
+    position: absolute;
+    margin-top: -2px;
+    background-color: rgb(253, 216, 53);
+    color: black;
+    margin-left: -15px;
+    text-align: center;
+    width: 25px;
+    border-radius: 20px;
+}
+
+.account{
+    margin-top: 30px;
+}
+.account span{
+    margin-right: 15px;
+    margin-top: 18px;
+    font-size: 15px;
+    color: white;
+    float: right;
+}

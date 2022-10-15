@@ -1,0 +1,57 @@
+.detail{
+    z-index: -999;
+}
+
+.productBoy-sub{
+    background-color: #efefef !important;
+}
+.imgCore{
+    height:500px;
+    box-shadow: 0px 4px 10px #007bff;
+    border-radius: 30px 0px;
+}
+.bot{
+    bottom: 0px;
+}
+button{
+    background-color: #f48c06;
+    height: 50px;
+    width: 200px;
+    border-radius: 0px 30px 30px 0px !important;
+    border: none !important;
+    cursor: pointer;
+    color: white;
+
+}
+button img{
+    margin-top: -9px;
+    height: 20px;
+}
+input{
+    background-color: #f48c06;
+    height: 50px;
+    width: 50px;
+    
+    border: none !important;
+    cursor: pointer;
+    color: white;
+    padding-left: 20px;
+
+}
+table{
+    border: 2px outset #ffffff;
+}
+.recomment{
+    margin-top: 480px;
+    color: #007bff;
+}
+
+select{
+    padding: 0px 10px;
+    border: none !important;
+    height: 50px;
+    border-radius: 30px 0px 0px 30px !important;
+    background-color: white;
+    background-color: #f48c06;
+    color: white;
+}
