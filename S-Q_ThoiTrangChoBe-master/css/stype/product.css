@@ -1,0 +1,70 @@
+
+#product-cards h1{
+    font-size: 20px;
+    text-align: left !important;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 5px !important;
+    padding: 5px 40px;
+    margin-top: 20px;
+    border-radius: 50px 0px 50px 0px;
+}
+.a-:hover{
+    text-decoration: none;
+}
+#product-cards .card{
+    background-color: white;
+    cursor: pointer;
+}
+.overlay{
+    display: block;
+    opacity: 0;
+    position: absolute;
+    top: 10%;
+    margin-left: 0;
+    width: 70px;
+}
+#product-cards .card:hover .overlay{
+    opacity: 1;
+    margin-left: 5%;
+    transition: 0.5s ease;
+}
+.overlay i img{
+    background-color: #f0cf15;
+    height: 35px;
+    width: 35px;
+    font-size: 20px;
+    padding: 7px;
+    margin: 5%;
+    margin-right: 100px;
+    margin-bottom: 5%;
+    cursor: pointer;
+}
+.overlay .btn-secondary{
+    background: transparent !important;
+    border: none;
+    box-shadow: none;
+}
+#product-cards .card h4{
+    color: rgb(26, 148, 255);
+}
+.checked{
+    color: #f0cf15;
+}
+#product-cards h5{
+    margin-top: 15px;
+    font-size: 15px;
+}
+#product-cards h5 span{
+    float: right;
+}
+#product-cards h6{
+    margin-top: 10px;
+    font-size: 10px;
+}
+.productBoy{
+    margin-top: 0px !important;
+    clear: both;
+    background-color: #efefef !important;
+}
+

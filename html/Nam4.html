@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thời Trang Cho Bé</title>
+    <link rel="shortcut icon" href="/image/icon_SQ - Copy.png" />
+    <link rel="stylesheet" href="/css/stype/detail.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/jquery-3.6.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+
+    <script>
+        $(function () {
+            $(".header").load("header.html");
+        });
+       
+        $(function () {
+            $(".menu").load("menu.html");
+        });
+
+        $(function () {
+            $(".productBoy").load("productBoy.html");
+        });
+
+        $(function () {
+            $(".footer").load("footer.html");
+        });
+    </script>
+</head>
+
+<body style="height: 1000px; background-color: #efefef; " class="detail">
+    <div class="header"></div>
+    <div class="menu"></div>
+    <div class="container">
+        <div class="row productBoy-sub">
+            <div class="col-md-4"> 
+                <img src="/image/productBoy/Nam4.jpg" alt="" class="imgCore">
+            </div>
+
+            <div class="col-md-8">
+                <table class="table table-striped" >
+                    <thead>
+                      <tr class="table-warning">
+                        <th scope="col">Tính Chất</th>
+                        <th scope="col">Thông Tin</th>
+                        
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">Tên sản phẩm</th>
+                        <td>Bộ đồ cool ngầu <br> Áo phông và quần jean</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Chất Liệu</th>
+                        <td>Cotton</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Giá</th>
+                        <td>699.000 &#8363;</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Thương hiệu</th>
+                        <td>S&Q - Thời Trang Cho Bé</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Xuất xứ</th>
+                        <td>Việt Nam</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Đặc Biệt</th>
+                        <td>
+                          Miễn phí giao hàng toàn quốc <br>
+                          Giảm 59k cho đơn từ 1tr <br>
+                          Đổi/Trả hàng trong vòng 60 ngày nếu không ứng ý sản phẩm
+                        </td>
+                      </tr>
+                      
+                    </tbody>
+                  </table>
+                  <div class="bot">
+                    <select name="sele" id="">
+                      <option value="">Size 11 (28kg - 30kg)</option>
+                      <option value="">Size 12 (30kg - 32kg)</option>
+                      <option value="">Size 13 (32kg - 34kg)</option>
+                      <option value="">Size 14 (34kg - 36kg)</option>
+                    </select>
+
+                    <input type="number" value="1">
+                    <button>
+                      <img src="/image/cart-icon.png" alt="">
+                        Thêm vào giỏ hàng
+                    </button>
+                  </div>
+            </div>
+        </div>
+        <div class="recomment">
+          <h3>Có Thể Bạn Sẽ Thích</h3>
+          <hr>
+        </div>
+    </div>
+    
+    <div class="productBoy"></div>
+    <div class="footer"></div>
+</body>
+</html>

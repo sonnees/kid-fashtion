@@ -1,0 +1,69 @@
+.home{
+    margin-top: -30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: -1;
+}
+
+.home .img img{
+    width: 100%;
+}
+.home .content{
+    z-index: 0;
+    position: absolute;
+}
+.content{
+    width: 90%;
+}
+
+.content h2, .content h5, .content h3{
+    color: white;
+}
+.content p{
+    color: white;
+}
+.content h3{
+    margin-left: 50px;
+    font-size: 60px;
+    text-shadow: 1px 1px 1px black;
+    font-weight: bold;
+}
+.content h2{
+    margin-left: 50px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.changecontent:after{
+    content: ' ';
+    color: #f0cf15;
+    text-shadow: 1px 1px 1px black;
+    animation: changetext 8s infinite linear;
+}
+@keyframes changetext{
+    0%{content: "Bé Trai";}
+    35%{content: "Bé Gái";}
+    60%{content: "Áo Khoác";}
+    100%{content: "Đồ Bơi";}
+}
+.content p{
+    margin-left: 50px;
+}
+.content h5{
+    
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 29px;
+}
+.content .btn{
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 150px;
+    height: 38px;
+    letter-spacing: 3px;
+    background-color: #f0cf15;
+    color: black;
+    font-weight: bold;
+}
