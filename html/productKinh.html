@@ -9,17 +9,76 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <script src="../js/jquery-3.6.1.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
+    <script>
+        var h;
+var m;
+var s;
+function init(){
+ h='3';
+ m='15';
+ s='60';
+  clock();
+}
+function clock(){
+  s--;
+  if(s==0)
+    {
+      s=59;
+      m--;
+      if (m==0)
+        {
+          m=59;
+          h--;
+          if(h==0) 
+            {
+              h=24;
+            }
+
+        }
+    }
+   change('seconds',s);
+  change('minutes',m);
+  change('hours',h);
+  setTimeout(clock,1000);
+}
+function change(id,val){
+   if(val<10){
+     val='0'+val;
+   }
+    document.getElementById(id).innerHTML=val;
+}
+window.onload=init();
+    </script>
     
 </head>
 <body style="background-color: #efefef;">
 
     <div class="container" id="product-cards">
-        <h1 class="text-center">Mắt kính</h1>
-
-        <div class="row productKinh" style="margin-top: 50px;">
+        <h1 class="text-center" style="height: 65px;">
+            <span>Mắt kính</span>
+            <img src="/image/flash-sale.jpg" alt="" style="height: 53px;">
+            <div id = "ImgSlide">
+                  </div>
+                  <div id = "clock">
+                    <div>
+                      <span id = "hours" style="float: left;"></span>
+                      <div class = "clocktxt" style="float: left; margin-top: 5px; margin-left: 5px;"> Giờ</div>
+                    </div>
+                    <div>
+                      <span id = "minutes" style="float: left;"></span>
+                      <div class = "clocktxt" style="float: left; margin-top: 5px; margin-left: 5px;">Phút</div>
+                      </div>
+                    <div>
+                      <span id = "seconds" style="float: left;"></span>
+                      <div class = "clocktxt" style="float: left; margin-top: 5px; margin-left: 5px;">Giây</div>
+                      </div> 
+                  </div>
+        </h1>
+        <div class="row productBoy" style="margin-top: 50px;">
             <div class="col-md-3 py-3 py-md-0">
                 <a href="/html/Matkinh1.html" class="a-">
                     <div class="card">
+                        
                         <img src="/image/Kinh/kinh 1.png" alt="">
                         <div class="overlay">
                             <button type="button" class="btn btn-secondary" title="Xem Chi Tiết"><i><img src="/image/eye-open.png" alt="" width="30px"></i></button>
@@ -27,16 +86,16 @@
                             <button type="button" class="btn btn-secondary" title="Yêu Thích"><i><img src="/image/heart.png" alt="" width="30px"></i></button>
                         </div>
                         <div class="card-body">
-                            <h4 class="text-center">Mắt kính Hàn Quốc <br><b>S&Q</b> <br> mắt kính gọng tròn cute</h4>
+                            <h4 class="text-center">Mắt kính thời trang</h4>
                             <div class="star text-center">
                               <img src="../image/star.png"  alt="">
                               <img src="/image/star.png"  alt="">
                               <img src="/image/star.png"  alt="">
                               <img src="/image/star.png"  alt="">
                               <img src="/image/star.png"  alt="">
-                              <h6>132 lượt đánh giá</h6>
+                              <h6>| 132 lượt đánh giá</h6>
                             </div>
-                            <h5>159.000 &#8363; <span><i><img src="/image/plus.png" alt="" width="20px"></i></span></h5>
+                            <h5>159.000 &#8363; <small>-49%</small><span><i><img src="/image/plus.png" alt="" width="20px"></i></span></h5>
                         </div>
                     </div>
                 </a>
@@ -52,16 +111,16 @@
                             <button type="button" class="btn btn-secondary" title="Yêu Thích"><i><img src="/image/heart.png" alt="" width="30px"></i></button>
                         </div>
                         <div class="card-body">
-                            <h4 class="text-center">Mắt kính râm<br> <b>S&Q</b> <br> mắt kính bảo vệ mắt cho bé</h4>
+                            <h4 class="text-center">Mắt kính thời trang</h4>
                             <div class="star text-center">
                               <img src="/image/star.png" alt="">
                               <img src="/image/star.png" alt="">
                               <img src="/image/star.png" alt="">
                               <img src="/image/star.png" alt="">
                               <img src="/image/star.png" alt="">
-                              <h6>937 lượt đánh giá</h6>
+                              <h6>| 937 lượt đánh giá</h6>
                             </div>
-                            <h5>199.000 &#8363; <span><i><img src="/image/plus.png" alt="" width="20px"></i></span></h5>
+                            <h5>199.000 &#8363; <small>-49%</small><span><i><img src="/image/plus.png" alt="" width="20px"></i></span></h5>
                         </div>
                     </div>
                 </a>
@@ -77,16 +136,16 @@
                             <button type="button" class="btn btn-secondary" title="Yêu Thích"><i><img src="/image/heart.png" alt="" width="30px"></i></button>
                         </div>
                         <div class="card-body">
-                            <h4 class="text-center">Mắt kính râm<br> <b>S&Q</b> <br> Mắt kính bảo vệ mắt cho bé</h4>
+                            <h4 class="text-center">Mắt kính thời trang</h4>
                             <div class="star text-center">
                               <img src="/image/star.png" alt="">
                               <img src="/image/star.png" alt="">
                               <img src="/image/star.png" alt="">
                               <img src="/image/star.png" alt="">
                               <img src="/image/star.png" alt="">
-                              <h6>398 lượt đánh giá</h6>
+                              <h6>| 398 lượt đánh giá</h6>
                             </div>
-                            <h5>199.000 &#8363; <span><i><img src="/image/plus.png" alt="" width="20px"></i></span></h5>
+                            <h5>199.000 &#8363; <small>-49%</small><span><i><img src="/image/plus.png" alt="" width="20px"></i></span></h5>
                         </div>
                     </div>
                 </a>
@@ -102,16 +161,16 @@
                         <button type="button" class="btn btn-secondary" title="Yêu Thích"><i><img src="/image/heart.png" alt="" width="30px"></i></button>
                     </div>
                     <div class="card-body">
-                        <h4 class="text-center">Mắt kính Hàn Quốc <b>S&Q</b> <br> Mắt kính gọng vuông thời trang</h4>
+                        <h4 class="text-center">Mắt kính thời trang</h4>
                         <div class="star text-center">
                           <img src="/image/star.png" alt="">
                           <img src="/image/star.png" alt="">
                           <img src="/image/star.png" alt="">
                           <img src="/image/star.png" alt="">
                           <img src="/image/star.png" alt="">
-                          <h6>5 lượt đánh giá</h6>
+                          <h6>| 5 lượt đánh giá</h6>
                         </div>
-                        <h5>299.000 &#8363; <span><i><img src="/image/plus.png" alt="" width="20px"></i></span></h5>
+                        <h5>299.000 &#8363; <small>-49%</small><span><i><img src="/image/plus.png" alt="" width="20px"></i></span></h5>
                     </div>
                 </div>
                </a>

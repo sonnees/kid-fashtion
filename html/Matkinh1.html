@@ -10,7 +10,46 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <script src="../js/jquery-3.6.1.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
+    <script>
+      var h;
+var m;
+var s;
+function init(){
+h='3';
+m='15';
+s='60';
+clock();
+}
+function clock(){
+s--;
+if(s==0)
+  {
+    s=59;
+    m--;
+    if (m==0)
+      {
+        m=59;
+        h--;
+        if(h==0) 
+          {
+            h=24;
+          }
 
+      }
+  }
+ change('seconds',s);
+change('minutes',m);
+change('hours',h);
+setTimeout(clock,1000);
+}
+function change(id,val){
+ if(val<10){
+   val='0'+val;
+ }
+  document.getElementById(id).innerHTML=val;
+}
+window.onload=init();
+  </script>
     <script>
         $(function () {
             $(".header").load("header.html");
@@ -36,7 +75,7 @@
     <div class="container">
         <div class="row productBoy-sub">
             <div class="col-md-4"> 
-                <img src="/image/Kinh/kinh 1.png" alt="" class="imgCore">
+                <img src="/image/Kinh/kinh 1.png" alt="" class="imgCore" style="height: 265px; margin-top: 85px;">
             </div>
 
             <div class="col-md-8">
@@ -102,7 +141,7 @@
         </div>
     </div>
     
-    <div class="productBoy"></div>
+    <div class="productKinh"></div>
     <div class="footer"></div>
 </body>
 </html>

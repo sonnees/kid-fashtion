@@ -11,6 +11,10 @@
 }
 .a-:hover{
     text-decoration: none;
+    
+}
+.card:hover{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 #product-cards .card{
     background-color: white;
@@ -29,6 +33,7 @@
     margin-left: 5%;
     transition: 0.5s ease;
 }
+
 .overlay i img{
     background-color: #f0cf15;
     height: 35px;
@@ -46,33 +51,84 @@
     box-shadow: none;
 }
 #product-cards .card h4{
-    color: rgb(26, 148, 255);
+    color: black;
 }
 .checked{
     color: #f0cf15;
 }
 #product-cards h5{
     margin-top: 15px;
-    font-size: 15px;
+    font-size: 19px;
 }
 #product-cards h5 span{
     float: right;
 }
 #product-cards h6{
-    margin-top: 10px;
-    font-size: 10px;
+    font-size: 13px;
+   
 }
 .productBoy{
     margin-top: 0px !important;
     clear: both;
     background-color: #efefef !important;
 }
-
-<<<<<<< HEAD
-=======
-.productKinh{
-    margin-top: 0px !important;
-    clear: both;
-    background-color: #efefef !important;
+.star img{
+    margin-top: 2px;
+    height: 14px;
+    float: left;
+    margin-right: 2px;
+    margin-left: 0px;
 }
->>>>>>> b7ebb27 (first-commit)
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+#ImgSlide figure img {
+  width : 20%;
+  float : left;
+  
+}
+figure {
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 20s slidy infinite;
+  
+}
+
+#clock{
+    margin-left: 360px !important;
+    margin-top: -23px !important;
+    margin-bottom: 0px !important;
+	font-family: sans-serif;
+	color: #fff;
+	font-weight: 100;
+	text-align: center;
+	font-size: 15px;
+	transform: translate(-50%, -50%);
+}
+#clock > div{
+	padding: 5px;
+	border-radius: 3px;
+	background: #00BF96;
+	display: inline-block;
+}
+#clock div > span{
+	padding: 5px;
+	border-radius: 3px;
+	background: #00816A;
+	display: inline-block;
+}
+small{
+    color: red;
+    background-color: #f0cf15;
+    padding: 0px;
+}
