@@ -10,45 +10,6 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <script src="../js/jquery-3.6.1.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
-    <script>
-      var h;
-var m;
-var s;
-function init(){
-h='3';
-m='15';
-s='60';
-clock();
-}
-function clock(){
-s--;
-if(s==0)
-  {
-    s=59;
-    m--;
-    if (m==0)
-      {
-        m=59;
-        h--;
-        if(h==0) 
-          {
-            h=24;
-          }
-
-      }
-  }
- change('seconds',s);
-change('minutes',m);
-change('hours',h);
-setTimeout(clock,1000);
-}
-function change(id,val){
- if(val<10){
-   val='0'+val;
- }
-  document.getElementById(id).innerHTML=val;
-}
-window.onload=init();
   </script>
     <script>
         $(function () {
@@ -65,6 +26,9 @@ window.onload=init();
 
         $(function () {
             $(".footer").load("footer.html");
+        });
+        $(function () {
+            $(".sitemap").load("sitemap.html");
         });
     </script>
 </head>
@@ -142,6 +106,8 @@ window.onload=init();
     </div>
     
     <div class="productKinh"></div>
-    <div class="footer"></div>
+    <div style="margin-top: 290px;"></div>
+    <div class="footer" style="background-color: #ffffff;"></div>
+    <div class="sitemap" style="background-color: #ffffff;"></div>
 </body>
 </html>

@@ -1,0 +1,12 @@
+.footer p{
+    font-size: 12px;
+    margin-top: -10px;
+}
+.footer img{
+    padding-top: 10px;
+    height: 50px;
+}
+.iconConnect{
+    margin-top: -15px;
+    text-decoration: none;
+}
