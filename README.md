@@ -6,4 +6,4 @@ Mã đề tài: 05
 | STT | MSSV  | Họ tên |
 | :--:   | :--: | :----: |
 | null | 20049891 | Nguyễn Văn Sơn |
-| null | 200448861 | Nguyễn Văn  |
+| null | 200448861 | Nguyễn Văn Quý |
