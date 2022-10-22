@@ -103,12 +103,12 @@ $(document).ready(function() {
     function KTMK1() {
         var mk = txtMk1.val();
         if (mk == "") {
-            tbMk1.html("* bắt buộc");
+            tbMk1.html("bắt buộc");
             return false;
         }
         var regex =/^[0-9a-zA-Z]{4,}$/;
         if (!regex.test(mk)) {
-            tbMk1.html("* mật khẩu tối thiểu là 4 kí tự");
+            tbMk1.html("mật khẩu tối thiểu là 4 kí tự");
             return false;
         }
         tbMk1.html("");
