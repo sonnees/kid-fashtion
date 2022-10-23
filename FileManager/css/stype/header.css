@@ -250,6 +250,7 @@ body{
 }
 
 .id02{
+  background-image: url("../FileManager/image/subcri.png");
   background-image: url("/FileManager/image/subcri.png");
   background-size: cover;
   display: block !important;
