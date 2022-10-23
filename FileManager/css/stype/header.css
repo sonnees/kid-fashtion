@@ -250,7 +250,7 @@ body{
 }
 
 .id02{
-  background-image: url("../S-Q_ThoiTrangChoBe/FileManager/image/subcri.png"),url("/FileManager/image/subcri.png");
+  background-image: url("../../image/subcri.png"),url("/FileManager/image/subcri.png");
   background-size: cover;
   display: block !important;
   margin: auto !important;
