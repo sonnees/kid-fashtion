@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thời Trang Cho Bé</title>
+    <link rel = "icon" href ="../image/icon_SQ.png" type = "image/x-icon">
+    <link rel="stylesheet" href="../css/stype/menu.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+   
+    <script src="../js/jquery-3.6.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+
+</head>
+<body>
+  <div id="navbar" >
+    <a href="../html/home.html" id="home">
+      <img src="../image/home.png" alt="">
+      Trang Chủ</a>
+    <div class="dropdown">
+      <button class="dropbtn">
+        <img src="../image/shop.png" alt="">
+        Sản Phẩm
+      </button>
+      <div class="dropdown-content">
+        <a href="../html/index-productBoy.html">Thời Trang Nam</a>
+        <a href="../html/index-productGirt.html">Thời Trang Nữ</a>
+        <a href="../html/index-productMu.html">Mũ Thời Trang</a> 
+        <a href="../html/index-productkinh.html">Mắt Kính <img src="../image/new.png" alt="" style="height: 30px;"></a>
+      </div>
+    </div> 
+    
+
+
+    <a href="../html/gioithieu.html">
+      <img src="../image/user.png" alt="">
+      Giới Thiệu</a>
+    </a>
+
+    <a href="../html/home.html" style="float: right; margin-right: 40px;">
+      <img src="../image/icon_SQ.png" alt="">
+    </a>
+    
+  </div>
+  
+  <div class="content">
+    
+  </div>
+  
+  <script>
+  window.onscroll = function() {myFunction()};
+  
+  var navbar = document.getElementById("navbar");
+  var sticky = navbar.offsetTop;
+  
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+  </script>
+  
+</body>
+</html>

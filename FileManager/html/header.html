@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../image/icon_SQ - Copy.png" />
+    <link rel="stylesheet" href="../css/stype/header.css">
+    
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/jquery-3.6.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/header.js"></script>
+   
+</head>
+<body>
+    <div class="row">
+        <div class="col-2">
+            <div class="row">
+                <a href="../html/home.html">
+                    <img src="../image/SQ.png" alt="" class="SQ">
+                </a>
+                
+            </div>
+        </div>
+        <div class="col-7">
+            <form action="">
+                <div class="a">
+                    <a href="../html/index-productBoy.html">Thời trang nam / </a> 
+                    <a href="../html/index-productGirt.html">Thời trang nữ / </a>
+                    <a href="../html/index-productmu.html">Mũ thời trang / </a>
+                    <a href="../html/index-productkinh.html">Mắt kính / </a>
+                    <a href="">...</a>
+                </div>
+                <input style="margin-top: -20px;" type="text" placeholder="Tìm sản phẩm, danh mục hay thương hiệu mong muốn ...">
+                <button>
+                    Tìm Kiếm
+                </button>
+            </form>
+        </div>
+        <div class="col-3">
+            <div class="row" style="float: right;">
+                
+                <div class="account">
+                    <img src="../image/account-icon.png" alt="" class="account-icon" >
+                    <span id="login" style="cursor: pointer;">Đăng Nhập</span>  
+                </div>
+                <div class="cart" >
+                    <a href="../html/cart.html">
+                        <img src="../image/cart-icon.png" alt="" class="cart-icon">
+                        <a class="sonnees" style="float: right; text-decoration: none;" href="../html/cart.html">Giỏ Hàng</a>
+                        <span class="cart">3</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="id01" class="modal">
+        <form class="modal-content animate" role="form">
+            <span data-dismiss="modal" class="edit-login">&times;</span>
+            <div class="imgcontainer">
+                <img src="../image/icon_SQ.png" alt="Avatar" class="avatar">
+            </div>
+        
+            <div class="container">
+                <label for="uname"><b>Tên định danh </b></label>
+                <input id="txtName" type="text" placeholder="Nhập tên định danh" name="uname">
+                <span id="tbName"></span> <br> <br>
+  
+                <label for="psw"><b>Mật khẩu</b></label>
+                <input id="txtmk" type="password" placeholder="Nhập mật khẩu" name="psw">
+                <span id="tbmk"></span> <br> <br>
+                
+                <div class="modal-footer" style="border: none; margin-top: -20px;">
+                    <button type="button" id="btn-submit" class="btn btn-success btn-block" >Đăng nhập</button>
+                </div>
+
+                <label>
+                    <input id="check" type="checkbox" checked="checked" name="remember"> Ghi nhớ đăng nhập
+                </label>
+            </div>
+            
+            <div class="container" style="background-color:#f1f1f1">
+                <button id="out" type="button"  data-dismiss="modal" class="cancelbtn" style="border-radius: 10px;">Thoát</button>
+                <span id="subcri" data-dismiss="modal">Đăng ký làm thành viên?</span>
+            </div>
+        </form>
+    </div>
+
+    <div id="id02" class="modal modal1">
+        <form class="id02 animate" role="form">
+            <span data-dismiss="modal" class="edit-login">&times;</span>
+            <div class="id02-div">
+                <h1>Đăng Ký Làm Thành Viên</h1>
+
+                <input id="txtName-1" type="text" placeholder="Nhập vào tên định danh của bạn">
+                <span id="tbName-1"></span>
+
+                <input id="txtSdt" type="text" placeholder="Nhập vào số điện thoại của bạn">
+                <span id="tbSdt"></span>
+
+                <input id="txtmk-1" type="password" placeholder="Nhập mật khẩu">
+                <span id="tbmk-1"></span>
+
+                <input id="txtRemk" type="password" placeholder="Nhập lại mật khẩu">
+                <span id="tbRemk"></span>
+
+                <div class="modal-footer" style="border: none; margin-top: -20px;">
+                    <button type="button" id="btn-submit-1" class="btn btn-success btn-block" >Đăng nhập</button>
+                </div>
+                
+            </div>
+            
+        </form>
+    </div>
+    
+</body>
+</html>
