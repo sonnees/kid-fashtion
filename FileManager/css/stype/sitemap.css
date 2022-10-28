@@ -5,3 +5,10 @@
 .sitemap-p a{
     text-decoration: none !important;
 }
+.siteMap{
+    height: 70px;
+    float: right;
+    cursor: pointer;
+    z-index: 999;
+    background-color: white;
+}

@@ -32,3 +32,17 @@
 .total h4{
     float: right;
 }
+.btnOrder{
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    float: right;
+    background-color: rgb(26, 148, 255);
+    border: none;
+    color: white;
+    cursor: pointer;
+
+}
+.btnOrder:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 10px 0px;
+}
